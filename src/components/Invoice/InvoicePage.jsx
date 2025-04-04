@@ -5,7 +5,7 @@ import { useNavigate } from "react-router-dom";
 const InvoicePage = () => {
     const navigate=useNavigate()
   return (
-    <div className="w-[400px] mx-auto bg-white shadow-lg rounded-lg ">
+    <div className="w-[400px] mx-auto bg-white shadow-lg rounded-lg p-4 ">
       {/* Header */}
       <div className="bg-blue-600 text-white text-center p-4 relative rounded-t-lg">
         <button className="absolute left-4 top-4" onClick={()=>navigate('/')}>⬅️</button>
